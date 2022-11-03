@@ -1,0 +1,37 @@
+/*
+ * You can add custom styles for your customer portal to this file. By default it tries
+ * to adjust fonts to your theme settings.
+ *
+ * If you'd like to override the entire stylesheet, you can disable the built-in one
+ * by removing `&use_built_in_stylesheets=1` from the `paywhirl-customer-portal-frame.liquid` snippet
+ */
+
+ 
+ 
+
+ @font-face {
+  font-family: Archivo;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/archivo/archivo_n4.abb5ec97705c33fe369ef678fc93b9cf87658330.woff2?h1=YXN0cm9raWQuc3RvcmU&h2=YXN0cm9raWQuc2hvcA&h3=c2hvcGFzdHJva2lkLmNvbQ&h4=c2hvcGFzdHJha2lkLmNvbQ&h5=YXN0cm9raWRzaG9wLmNvbQ&h6=NGR0ZWUuY29t&hmac=aa693afc223ac125150dcd3931fb03ec6437f88ce0580f9a5ead2d1e7b00444d") format("woff2"),
+       url("https://fonts.shopifycdn.com/archivo/archivo_n4.0ae8e008abb455fbd654c11c5b30dc47b6849133.woff?h1=YXN0cm9raWQuc3RvcmU&h2=YXN0cm9raWQuc2hvcA&h3=c2hvcGFzdHJva2lkLmNvbQ&h4=c2hvcGFzdHJha2lkLmNvbQ&h5=YXN0cm9raWRzaG9wLmNvbQ&h6=NGR0ZWUuY29t&hmac=6f85115ef9a0c4eca58d642ff14f16e07224bb7b2a05b47aa78eded04d34aa36") format("woff");
+}
+
+ 
+
+ 
+ 
+ 
+
+ :root {
+   --font-weight-body--bold: 700;
+   --font-weight-body--bolder: 700;
+
+   --font-stack-header: Archivo, serif;
+   --font-style-header: normal;
+   --font-weight-header: 400;
+
+   --font-stack-body: sans-serif;
+   --font-style-body: normal;
+   --font-weight-body: normal;
+ }
