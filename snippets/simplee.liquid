@@ -54,6 +54,5 @@
           {% endif %}
       {% endfor %}
 {% endif %}
-{{ 'simplee.css' | asset_url | stylesheet_tag }}
-{{ 'simplee.js' | asset_url | script_tag }}
-            
+<script data-src="{{ 'simplee.js' | asset_url }}" type="lazyload2"></script>
+<link rel="stylesheet" data-href="{{ 'simplee.css' | asset_url }}">            
